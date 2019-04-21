@@ -23,6 +23,9 @@ if(place_meeting(x+hspd, y, oWall))
 	{
 		x = x + sign(hspd);
 	}
+	side = sign(hspd);
+	hspd = (hspd - side*1) * -1;
+	grv_x = grv_x * (-1);
 }
 else
 {

@@ -215,11 +215,27 @@
             }
         },
         {
+            "Key": "aa078416-8456-4a92-8ce9-1c97186737e9",
+            "Value": {
+                "id": "37358f10-cc3b-4e1d-bebb-5d551572fca9",
+                "resourcePath": "sprites\\sEnemyDying\\sEnemyDying.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b49222b7-efc3-4bf7-9ff6-67a8b8a9770e",
             "Value": {
                 "id": "8c76a32b-e6fa-41b0-a648-9eae84c6f714",
                 "resourcePath": "sprites\\sPlayerR\\sPlayerR.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b5de74e4-c873-408c-9327-2a59b73e69f9",
+            "Value": {
+                "id": "4345c9ac-5f7a-4558-8f79-27192ed1eb98",
+                "resourcePath": "objects\\oEnemyDying\\oEnemyDying.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -236,6 +252,14 @@
                 "id": "65d77e6e-bd38-40bb-93ed-50b4f8dd78d6",
                 "resourcePath": "views\\c2feaf9f-a5ee-444e-94ba-edd67cfcd469.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cb8d6a8a-e064-4e9d-a049-a95651b19506",
+            "Value": {
+                "id": "5f782b02-4038-46dc-a7f5-ea331fec6e9f",
+                "resourcePath": "objects\\oCoin1\\oCoin1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -259,6 +283,14 @@
             "Value": {
                 "id": "bf815bf6-c078-4982-b611-dbddbb4195ba",
                 "resourcePath": "sprites\\sSpawner\\sSpawner.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dc7d8f46-2b33-4cb0-a112-5adb2fdc509b",
+            "Value": {
+                "id": "9977e7e9-e63c-4208-a6b6-847463683fd2",
+                "resourcePath": "sprites\\sCoin1\\sCoin1.yy",
                 "resourceType": "GMSprite"
             }
         },
