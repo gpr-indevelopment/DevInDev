@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
+key_left = keyboard_check(vk_left) || keyboard_check(ord("A"))
+key_right = keyboard_check(vk_right) || keyboard_check(ord("D"))
 key_jump = keyboard_check_pressed(vk_space);
 
 var move = key_right - key_left;
@@ -32,11 +32,22 @@ if(place_meeting(x, y + vsp, oWall))
 	{
 		y = y + sign(vsp);
 	}
+	vsp = 0;
 }
 else
 {
 	y = y + vsp;
 }
+if(move != 0)
+{
+	sprite_index = sPlayerR;
+	if(sign(hsp) > 0) image_xscale = 1; if(sign(hsp) < 0) image_xscale = -1;
+}
+else
+{
+	sprite_index = sPlayer;
+}
+
 
 
 
